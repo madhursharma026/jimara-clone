@@ -1,0 +1,37 @@
+.containerWidth {
+    margin: auto;
+    max-width: 1570px;
+    font-family: 'Nunito';
+}
+
+.mainColor {
+    color: #306F5E;
+}
+
+.mainBg {
+    background: #306F5E;
+}
+
+.Heading {
+    color: #151515;
+    font-weight: 700;
+    line-height: 1.29em;
+    font-size: calc(2.55vw + 18px);
+}
+
+.SubHeading {
+    font-size: calc(0.1vw + 16px);
+}
+
+.StaffIntroContainer {
+    position: relative;
+    text-align: center;
+}
+
+.StaffIntroBottomLeftContainer {
+    bottom: 0;
+    left: -10px;
+    position: absolute;
+    background: #F7D86F;
+}
+
