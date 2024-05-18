@@ -8,8 +8,8 @@ import styles from "../../../styles/Homepage/Homepage.module.css";
 
 export default function Section1() {
     return (
-        <div className={`${style.containerWidth} container-fluid px-3 mt-md-5 pt-5`}>
-            <div className="row">
+        <div className={`${style.containerWidth} container-fluid px-3 mt-xxl-5 mt-lg-3 mt-5 pt-xxl-5 pt-0`}>
+            <div className="row px-4">
                 <div className="col-lg-3 col-md-4" style={{ margin: 'auto' }}>
                     <div className="d-md-block d-none">
                         <div className="row">
@@ -93,7 +93,7 @@ export default function Section1() {
                 </div>
 
                 <div className="col-5 d-lg-block d-none">
-                    <Image src={Image1} style={{ width: '100%', height: 'auto' }} />
+                    <Image src={Image1} style={{ width: '100%', objectFit:'contain' }} />
                 </div>
 
                 <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-2 pt-md-0 pt-5 text-md-start text-center" style={{ margin: 'auto' }}>

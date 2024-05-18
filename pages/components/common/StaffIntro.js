@@ -5,7 +5,7 @@ export default function StaffIntro({ ImageURL, Name, Post }) {
     return (
         <div className={styles.StaffIntroContainer}>
             <div className="p-3">
-                <Image src={ImageURL} alt="#ImgNotFound" className="w-100 h-auto rounded-4" />
+                <Image src={ImageURL} className="rounded-4 h-100 w-100" objectFit="cover" />
             </div>
             <div className={`${styles.StaffIntroBottomLeftContainer} py-4 px-5 rounded-4 text-start`}>
                 <h4><b>{Name}</b></h4>

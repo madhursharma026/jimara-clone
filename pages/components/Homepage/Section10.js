@@ -2,8 +2,10 @@ import Heading from "../common/Heading";
 import { Button } from "react-bootstrap";
 import SubHeading from "../common/SubHeading";
 import style from "../../../styles/global.module.css";
+import formTattoo from "../../../public/formTattoo.png";
 import ItalicCustomHeading from "../common/ItalicCustomHeading";
 import styles from '../../../styles/Homepage/Homepage.module.css';
+import Image from "next/image";
 
 export default function Section10() {
     return (
@@ -19,7 +21,7 @@ export default function Section10() {
                                     </h2>
                                 </div>
                                 <div className="col-xl-4 d-xl-block d-none" style={{ marginTop: '-180px' }}>
-                                    <img src="https://alonethemes.com/wp-content/uploads/2021/09/jmr-child-2-min.png" alt="#ImgNotFound" />
+                                    <Image src={formTattoo} />
                                 </div>
                             </div>
                         </div>
@@ -62,7 +64,7 @@ export default function Section10() {
                         <div className="col-xl-6 mt-3">
                             <div className="row">
                                 <div className="col-xl-4 col-3">
-                                    <div className="bg-warning text-center fs-3 p-3 rounded-5">
+                                    <div className="bg-warning text-center fs-3 py-3 px-2 rounded-5">
                                         <span className="bg-white rounded-circle px-3 py-2"><i className="fa fa-star-o"></i></span>
                                         <br />
                                         <h3 className="mt-3">5.0</h3>
@@ -74,7 +76,7 @@ export default function Section10() {
                         <div className="col-xl-6 mt-3">
                             <div className="row">
                                 <div className="col-xl-4 col-3">
-                                    <div className="bg-warning text-center fs-3 p-3 rounded-5">
+                                    <div className="bg-warning text-center fs-3 py-3 px-2 rounded-5">
                                         <span className="bg-white rounded-circle px-3 py-2"><i className="fa fa-users"></i></span>
                                         <br />
                                         <h3 className="mt-3">4K</h3>

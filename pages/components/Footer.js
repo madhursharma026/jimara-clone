@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Children from "../../public/children.png";
 import style from "../../styles/global.module.css";
 import styles from '../../styles/Footer.module.css';
 
@@ -44,8 +46,8 @@ export default function Footer() {
                     <div className="col-xl-6">
                         <h3 className="text-warning mt-3">News & videos</h3>
                         <div className="row">
-                            <div className="col-sm-6">
-                                <img src="https://alonethemes.com/wp-content/uploads/2021/09/jmr-poster-2-min.jpg" alt="#ImgNotFound" className="w-100 rounded-4" />
+                            <div className="col-sm-6" style={{margin:'auto'}}>
+                                <Image src={Children} alt="#ImgNotFound" className="w-100 h-auto" />
                             </div>
                             <div className="col-sm-6 mtsm-0 mt-3">
                                 <h2>Subscribe our newsletter and get updates early</h2>

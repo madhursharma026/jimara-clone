@@ -1,3 +1,4 @@
+import Image from "next/image";
 import SubHeading from "./SubHeading";
 
 export default function Programs({ ImageURL, HeadingTitle, SubHeadingTitle, SubHeadingTitle2 }) {
@@ -5,7 +6,7 @@ export default function Programs({ ImageURL, HeadingTitle, SubHeadingTitle, SubH
         <div class="card w-100 border-0 h-100" style={{ boxShadow: '0 20px 50px rgba(21,21,21,.1)' }}>
             <div class="card-body text-center">
                 <div className="bg-success p-3" style={{ maxWidth: '80px', margin: 'auto', borderRadius: '100%', marginTop: '-50px' }}>
-                    <img src={ImageURL} alt="#ImgNotFound" className="w-100" />
+                    <Image src={ImageURL} alt="#ImgNotFound" className="w-100 h-auto" />
                 </div>
                 <h1 class="card-title mt-3"><b>{HeadingTitle}</b></h1>
                 <SubHeading subHeading={SubHeadingTitle} />

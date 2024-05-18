@@ -18,7 +18,7 @@ export default function Section8() {
                 <div className="col-xl-6 p-5 rounded-4" style={{ background: '#306F5E', margin: 'auto' }}>
                     <Image src={Children} alt="#ImgNotFound" className="w-100 h-auto" />
                     <div className="text-end" style={{ marginTop: '-70px' }}>
-                        <img src={player.src} alt="#ImgNotFound" width={'150px'} />
+                        <Image src={player} objectFit="contain" width={'150'} style={{ marginTop: '-30px' }} />
                     </div>
                 </div>
             </div>

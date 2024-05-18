@@ -2,6 +2,10 @@ import Heading from "../common/Heading";
 import Programs from "../common/Programs";
 import SubHeading from "../common/SubHeading";
 import style from "../../../styles/global.module.css";
+import HealthLogo from '../../../public/HealthLogo.png';
+import EducationLogo from '../../../public/EducationLogo.png';
+import EmploymentLogo from '../../../public/EmploymentLogo.png';
+import EmpowermentLogo from '../../../public/EmpowermentLogo.png';
 
 export default function Section5() {
     return (
@@ -18,16 +22,16 @@ export default function Section5() {
                 </div>
                 <div className="row mt-5">
                     <div className="col-xl-3 col-md-6 mt-md-3 mt-5">
-                        <Programs ImageURL={'https://cdn.icon-icons.com/icons2/3247/PNG/512/hand_holding_heart_icon_199121.png'} HeadingTitle="Health" SubHeadingTitle={'Semper voluptate irure facere moles tias arcu, laoreet, cursus dolores suspendisse. Voluptatum porro, quod vulputate ante dicta iusto unde.'} SubHeadingTitle2={'87% on average our empowerment programs continue to have high completion rates.'} />
+                        <Programs ImageURL={HealthLogo} HeadingTitle="Health" SubHeadingTitle={'Semper voluptate irure facere moles tias arcu, laoreet, cursus dolores suspendisse. Voluptatum porro, quod vulputate ante dicta iusto unde.'} SubHeadingTitle2={'87% on average our empowerment programs continue to have high completion rates.'} />
                     </div>
                     <div className="col-xl-3 col-md-6 mt-md-3 mt-5">
-                        <Programs ImageURL={'https://static-00.iconduck.com/assets.00/open-book-emoji-1024x769-oyfx263r.png'} HeadingTitle="Education" SubHeadingTitle={'Semper voluptate irure facere moles tias arcu, laoreet, cursus dolores suspendisse. Voluptatum porro, quod vulputate ante dicta iusto unde.'} SubHeadingTitle2={'87% on average our empowerment programs continue to have high completion rates.'} />
+                        <Programs ImageURL={EducationLogo} HeadingTitle="Education" SubHeadingTitle={'Semper voluptate irure facere moles tias arcu, laoreet, cursus dolores suspendisse. Voluptatum porro, quod vulputate ante dicta iusto unde.'} SubHeadingTitle2={'87% on average our empowerment programs continue to have high completion rates.'} />
                     </div>
                     <div className="col-xl-3 col-md-6 mt-md-3 mt-5">
-                        <Programs ImageURL={'https://static-00.iconduck.com/assets.00/punch-emoji-512x406-62pjwhhn.png'} HeadingTitle="Empowerment" SubHeadingTitle={'Semper voluptate irure facere moles tias arcu, laoreet, cursus dolores suspendisse. Voluptatum porro, quod vulputate ante dicta iusto unde.'} SubHeadingTitle2={'87% on average our empowerment programs continue to have high completion rates.'} />
+                        <Programs ImageURL={EmpowermentLogo} HeadingTitle="Empowerment" SubHeadingTitle={'Semper voluptate irure facere moles tias arcu, laoreet, cursus dolores suspendisse. Voluptatum porro, quod vulputate ante dicta iusto unde.'} SubHeadingTitle2={'87% on average our empowerment programs continue to have high completion rates.'} />
                     </div>
                     <div className="col-xl-3 col-md-6 mt-md-3 mt-5">
-                        <Programs ImageURL={'https://static-00.iconduck.com/assets.00/gear-emoji-2045x2048-orqh5x5v.png'} HeadingTitle="Employment" SubHeadingTitle={'Semper voluptate irure facere moles tias arcu, laoreet, cursus dolores suspendisse. Voluptatum porro, quod vulputate ante dicta iusto unde.'} SubHeadingTitle2={'87% on average our empowerment programs continue to have high completion rates.'} />
+                        <Programs ImageURL={EmploymentLogo} HeadingTitle="Employment" SubHeadingTitle={'Semper voluptate irure facere moles tias arcu, laoreet, cursus dolores suspendisse. Voluptatum porro, quod vulputate ante dicta iusto unde.'} SubHeadingTitle2={'87% on average our empowerment programs continue to have high completion rates.'} />
                     </div>
                 </div>
             </div>

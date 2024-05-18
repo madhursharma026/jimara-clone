@@ -12,7 +12,8 @@ export default function Section6() {
                     <div className="col-lg-6">
                         <div className="row">
                             <div className="col-sm-5 pt-3 px-sm-0 px-5" style={{ margin: 'auto' }}>
-                                <Image src={Graph} alt="#ImgNotFound" className="w-100 h-100 px-sm-0 px-5" />
+                                {/* <Image src={Graph} alt="#ImgNotFound" className="w-100 h-100 px-sm-0 px-5" /> */}
+                                <Image src={Graph} style={{ objectFit: 'contain', width: '100%' }} />
                             </div>
                             <div className="col-sm-7 pt-3" style={{ margin: 'auto' }}>
                                 <SubHeading subHeading="In FY 2020, 85% of our total operating expenses supported programs for children and youth in 10 countries around the world." />
