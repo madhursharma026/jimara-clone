@@ -27,7 +27,7 @@ export default function Section10() {
                         </div>
                     </div>
                     <div className="card rounded-5 border-0 mt-4" style={{ background: '#EAF1EF' }}>
-                        <div className="card-body p-5">
+                        {/* <div className="card-body p-5">
                             <h2 className="text-success">
                                 <b>Join us to learn how you can help make change for children</b>
                             </h2>
@@ -46,7 +46,8 @@ export default function Section10() {
                             <label for="text4" className="form-label mt-3"><b>Message</b></label>
                             <textarea rows={5} className="form-control" id="text4" placeholder="Message" />
                             <Button variant="warning" className={`px-5 py-3 mt-4 w-100 ${styles.ViewAllPostsBtn}`}><b>Join Us</b></Button>
-                        </div>
+                        </div> */}
+                        <iframe aria-label='Join us to learn how you can help make change for children' frameborder="0" style={{ minHeight: "700px", width: "96%", marginLeft: '2%', border: "none", }} className={`rounded-5 mt-4 mb-2 ${styles.IFrameStyle}`} src='https://forms.zohopublic.in/madhursharma220055/form/Joinustolearnhowyoucanhelpmakechangeforchildren/formperma/yZEO15Y4oYBxQDX1CWY8sf2hVWsiWZuJ_7fsftZmovs'></iframe>
                     </div>
                 </div>
                 <div className="col-xl-6 offset-xl-1 mt-xl-0 mt-5">
