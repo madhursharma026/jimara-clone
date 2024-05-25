@@ -1,5 +1,6 @@
 import Heading from "../common/Heading";
 import style from "../../../styles/global.module.css";
+import styles from "../../../styles/Homepage/Homepage.module.css";
 import activity1 from '../../../public/activity1.jpg';
 import activity2 from '../../../public/activity2.jpg';
 import activity3 from '../../../public/activity3.jpg';
@@ -16,22 +17,52 @@ export default function Section11() {
                 <ItalicCustomHeading italic={'Albums and images'} normal={'GALLERY'} />
                 <Heading heading={'Discover our activities'} />
                 <div className="col-md-6 mt-3">
-                    <Image src={activity1} className="w-100 h-100 rounded-4" objectFit="cover" />
+                    <div style={{ position: "relative", display: "inline-block" }}>
+                        <div className={styles.hoverImageOverlayEffect}>
+                            <Image src={activity1} alt="#ImgNotFound" className={`w-100 h-100 rounded-4`} objectFit="cover" />
+                            <div className={`rounded-4 ${styles.overlayImageStyle}`}></div>
+                        </div>
+                    </div>
                 </div>
                 <div className="col-md-6 mt-3">
-                    <Image src={activity2} className="w-100 h-100 rounded-4" objectFit="cover" />
+                    <div style={{ position: "relative", display: "inline-block" }}>
+                        <div className={styles.hoverImageOverlayEffect}>
+                            <Image src={activity2} alt="#ImgNotFound" className={`w-100 h-100 rounded-4`} objectFit="cover" />
+                            <div className={`rounded-4 ${styles.overlayImageStyle}`}></div>
+                        </div>
+                    </div>
                 </div>
                 <div className="col-md-3 col-sm-6 mt-3">
-                    <Image src={activity3} className="w-100 h-100 rounded-4" objectFit="cover" />
+                    <div style={{ position: "relative", display: "inline-block" }}>
+                        <div className={styles.hoverImageOverlayEffect}>
+                            <Image src={activity3} alt="#ImgNotFound" className={`w-100 h-100 rounded-4`} objectFit="cover" />
+                            <div className={`rounded-4 ${styles.overlayImageStyle}`}></div>
+                        </div>
+                    </div>
                 </div>
                 <div className="col-md-3 col-sm-6 mt-3">
-                    <Image src={activity4} className="w-100 h-100 rounded-4" objectFit="cover" />
+                    <div style={{ position: "relative", display: "inline-block" }}>
+                        <div className={styles.hoverImageOverlayEffect}>
+                            <Image src={activity4} alt="#ImgNotFound" className={`w-100 h-100 rounded-4`} objectFit="cover" />
+                            <div className={`rounded-4 ${styles.overlayImageStyle}`}></div>
+                        </div>
+                    </div>
                 </div>
                 <div className="col-md-3 col-sm-6 mt-3">
-                    <Image src={activity5} className="w-100 h-100 rounded-4" objectFit="cover" />
+                    <div style={{ position: "relative", display: "inline-block" }}>
+                        <div className={styles.hoverImageOverlayEffect}>
+                            <Image src={activity5} alt="#ImgNotFound" className={`w-100 h-100 rounded-4`} objectFit="cover" />
+                            <div className={`rounded-4 ${styles.overlayImageStyle}`}></div>
+                        </div>
+                    </div>
                 </div>
                 <div className="col-md-3 col-sm-6 mt-3">
-                    <Image src={activity6} className="w-100 h-100 rounded-4" objectFit="cover" />
+                    <div style={{ position: "relative", display: "inline-block" }}>
+                        <div className={styles.hoverImageOverlayEffect}>
+                            <Image src={activity6} alt="#ImgNotFound" className={`w-100 h-100 rounded-4`} objectFit="cover" />
+                            <div className={`rounded-4 ${styles.overlayImageStyle}`}></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
